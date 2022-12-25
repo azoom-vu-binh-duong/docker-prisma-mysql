@@ -1,8 +1,0 @@
-version: "3.8"
-
-services:
-  app:
-    image: test-docker-ne
-    ports:
-      - "3001:3000"
-    restart: unless-stopped
